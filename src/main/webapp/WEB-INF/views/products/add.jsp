@@ -1,4 +1,4 @@
-<%--<%@page contentType="text/html;charset=ISO-8859-9" pageEncoding="ISO-8859-9" %>--%>
+<%@page contentType="text/html;charset=ISO-8859-9" pageEncoding="ISO-8859-9" %>
 <%@ taglib prefix="template" tagdir="/WEB-INF/tags/template" %>
 <%@ taglib prefix="product" tagdir="/WEB-INF/tags/product" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
@@ -10,7 +10,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                ÃœrÃ¼n Ekle
+                Ürün Ekle
             </h1>
         </section>
 

@@ -3,7 +3,7 @@
 <%@ tag body-content="empty" trimDirectiveWhitespaces="true" pageEncoding="ISO-8859-9" %>
 <sec:authentication var="principal" property="principal" />
 <header class="main-header">
-    <a href="<c:url value="/products/get"/>" class="logo"><b>Stok Yönetimi</b></a>
+    <a href="<c:url value="/products"/>" class="logo"><b>Stok Yönetimi</b></a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top" role="navigation">
         <!-- Sidebar toggle button-->

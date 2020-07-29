@@ -15,4 +15,11 @@
     <mvc:resources mapping="/**" location="/templates/" />
 	<security:global-method-security pre-post-annotations="enabled" />
 
+	<bean id="characterEncodingFilter" class="org.springframework.web.filter.CharacterEncodingFilter" >
+		<property name="encoding" value="UTF-8"/>
+		<property name="forceEncoding" value="true"/>
+	</bean>
+
+	<security:custom-filter ref="characterEncodingFilter" before="CSRF_FILTER" />
+
 </beans>
