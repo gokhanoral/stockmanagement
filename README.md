@@ -1,4 +1,4 @@
-# stockmanagement
+# Stok Yönetim Sistemi
 Uzaktan Yazılım Stajı - Stok Yönetim Sistemi Uygulaması
 
 Kurulum
