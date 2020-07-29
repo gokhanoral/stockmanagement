@@ -11,3 +11,5 @@ Varsayılan kullanıcı adı root, şifre ise 12345678'dir
 
 3-)Uygulama herhangi bir veritabanı import edilmeden direkt çalıştırıldığında otomatik olarak stockmanagement adında bir veritabanı oluşturacaktır.
 Varsayılan kullanıcı olarak da admin kullanıcısı oluşturulacaktır. Bu kullanıcının şifresi 123'tür.
+
+4-)Oluşturulan hazır verilerle çalışmak için config dosyası altındaki backup.sql dosyası Mysql Workbench aracılığıyla import edilmelidir. 
