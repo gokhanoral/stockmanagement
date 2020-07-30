@@ -13,3 +13,5 @@ Varsayılan kullanıcı adı root, şifre ise 12345678'dir
 Varsayılan kullanıcı olarak da admin kullanıcısı oluşturulacaktır. Bu kullanıcının şifresi 123'tür.
 
 4-)Oluşturulan hazır verilerle çalışmak için config dosyası altındaki backup.sql dosyası Mysql Workbench aracılığıyla import edilmelidir. 
+
+5-)Port ayarlarında bir değişiklik yapılmadıysa http://localhost:8080 linkinden uygulamaya giriş yapılabilir.
